@@ -236,6 +236,17 @@ hdc install entry-signed.hap
 
 ---
 
+## 常见问题
+
+### 支持网盘 / 在线音源吗？
+
+不支持。本应用只连接你自己搭建的 Audiobookshelf 服务端，不接入任何第三方网盘、在线音源或账号体系。
+
+想用网盘里的音频，可以用 Alist / OpenList 把网盘挂成 WebDAV，再挂载到 NAS 的本地目录，
+让 ABS 扫描这个目录——书照样进 ABS，本应用不用改任何东西。
+
+---
+
 ## 版本记录
 
 见 [Releases](../../releases)。
