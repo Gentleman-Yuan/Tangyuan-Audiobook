@@ -41,7 +41,10 @@
 | 资产 | 是什么 | 谁能直接用 |
 | --- | --- | --- |
 | `TangyuanAudio-<版本>-unsigned.hap` | 单模块 HAP 安装包 | 需要先签名，或用会自动重签的安装器 |
-| `TangyuanAudio-<版本>-unsigned.app` | App Pack（内含同结构的 hap） | 同上；主要用于自行重新打包/签名 |
+| `TangyuanAudio-<版本>-unsigned.app.zip` | App Pack，**解压得到 `.app`**（内含同结构的 hap） | 同上；主要用于自行重新打包/签名 |
+
+> `.app` 之所以打成 zip：GitHub 的 Release 资产不接受 `.app` 这个扩展名，
+> 只能压缩后再上传。里面只有一个文件，解开就是 `.app` 本身。
 
 **不随 Release 发布：**
 
@@ -227,7 +230,7 @@ hdc install entry-signed.hap
 
 - tag 用纯版本号 `1.0.10`（不带 `v` 前缀）
 - Release 正文写人话的更新说明，并附两个包的 SHA256
-- 资产固定为未签名的 `.hap` 与未签名的 `.app`
+- 资产固定为未签名的 `.hap` 与未签名的 `.app.zip`（GitHub 不收 `.app` 扩展名）
 
 ---
 
