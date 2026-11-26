@@ -243,7 +243,8 @@ hdc install entry-signed.hap
 发版约定：
 
 - tag 用纯版本号 `1.0.11`（不带 `v` 前缀）
-- Release 正文写人话的更新说明，并附两个包的 SHA256
+- Release 正文**只写本次更新内容**（新增 / 修复 / 变更），
+  不重复安装步骤、功能列表、系统要求；SHA256 看资产自带的 digest 即可
 - 资产固定为未签名的 `.hap` 与未签名的 `.app.zip`（GitHub 不收 `.app` 扩展名）
 
 ---
