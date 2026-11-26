@@ -110,15 +110,16 @@
 java -jar hap-sign-tool.jar sign-app \
   -mode localSign -keyAlias "<你的别名>" \
   -keyPwd "<密码>" -keystorePwd "<密码>" \
-  -appCertFile "<xxx.cer>" -profileFile "<xxx.p7b>" \
+  -appCertFile "<xxx.cer>" -profileFile "<xxx.p7b>" -profileSigned 1 \
   -inFile TangyuanAudio-<版本>-unsigned.hap -outFile entry-signed.hap \
   -signAlg SHA256withECDSA -keystoreFile "<xxx.p12>"
 
 hdc install entry-signed.hap
 ```
 
-> `.app` 是给需要对整个 App Pack 重新签名 / 重新打包的人准备的。
-> 只想装到手机上，用 `.hap` 就够。
+> 调试证书只在你账号下**登记过 UDID 的设备**上有效。想装到别的手机，
+> 要先把那台手机的 UDID 加进调试证书（DevEco 里重新自动签名一次即可）。
+> 只签 hap 就有用；`.app` 给需要对整个 App Pack 重新签名 / 重新打包的人。
 
 ---
 
