@@ -15,22 +15,14 @@
 
 > 本仓库**只分发安装包与更新日志**，不提供源码。
 
-<table>
-  <tr>
-    <td width="58%" valign="middle">
-      <b>请我喝杯咖啡</b><br>
-      <sub>全部功能免费，没有广告也没有会员。打赏完全自愿，不换取任何功能或权益；不打赏也能使用全部功能。</sub>
-    </td>
-    <td width="21%" align="center">
-      <img src="support/wechat.png" width="112" alt="微信收款码"><br>
-      <sub>微信</sub>
-    </td>
-    <td width="21%" align="center">
-      <img src="support/alipay.png" width="112" alt="支付宝收款码"><br>
-      <sub>支付宝</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <b>请我喝杯咖啡</b><br>
+  <sub>全部功能免费，没有广告也没有会员。打赏完全自愿，不换取任何功能或权益；不打赏也能使用全部功能。</sub>
+  <br><br>
+  <img src="support/wechat.png" width="118" alt="微信收款码">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="support/alipay.png" width="118" alt="支付宝收款码">
+  <br>
+  <sub>微信（左） · 支付宝（右）</sub>
+</div>
 
 ---
 
