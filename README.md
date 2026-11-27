@@ -69,7 +69,7 @@
 
 在**鸿蒙手机的系统浏览器**里打开下面这个链接 → 点「开始测试」→ 跳到应用市场安装：
 
-**[汤圆听书 · 加入邀测](https://appgallery.huawei.com/link/invite-test-wap?taskId=45b0099de47a4fd04c4a71693d8184fb)**
+**[汤圆听书 · 加入邀测](https://appgallery.huawei.com/link/invite-test-wap?taskId=ebf3c22cfdf63c9abc11f70b8a7ac62f&invitationCode=52AtXvu0sgC)**
 
 - 必须用 **HarmonyOS NEXT 系统浏览器**打开；微信 / QQ / 其他 App 的内置浏览器会提示
   「请使用 HarmonyOS NEXT 系统浏览器打开」。
