@@ -238,6 +238,10 @@ hdc install entry-signed.hap
 
 ## 常见问题
 
+### 有交流群吗？
+
+有，Telegram 群：<https://t.me/+j_16OMHqmE84MmY1>
+
 ### 支持网盘 / 在线音源吗？
 
 不支持。本应用只连接你自己搭建的 Audiobookshelf 服务端，不接入任何第三方网盘、在线音源或账号体系。
